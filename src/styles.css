@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+.body{
+    margin: 0 80px;
+}
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+a{
+    color: #1E9980;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    color: #1E9980;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .body{
+        margin: 0 40px;
+    }
+}    
+@media (max-width: 600px) {
+    .body{
+        margin: 0 10px;
+    }
+}    
+
+
+
+
+
+
+@font-face {
+    font-family: "Prata";
+    src: url("./assets/fonts/Prata/Prata-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 

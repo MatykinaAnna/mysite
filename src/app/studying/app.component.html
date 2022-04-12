@@ -1,0 +1,84 @@
+<div class="body">
+    <header></header>
+</div>
+
+
+
+<div class="container">
+    <div class="body">
+        <div class="inf">
+            <div class="header">
+                Я изучаю Angular, так как <button (click)="toReasonShow()">...</button>
+                <span class="reason" [ngClass]="{reason_show: reason_show}">
+                    предпочитаю TypeScript; мне нравится методология ООП
+                </span>
+            </div>
+            <div class="text">
+                Данный раздел содержит учебные проекты, написанные в рамках изучения Angular, и пояснения к ним. По мере моего продвижения контент будет меняться. 
+            </div>
+        </div>
+        <div class="appkications">
+            <div class="app app1">
+                <div class="img">
+                    <div class="border_img">
+                        <button (click)="go('photo-list')"></button>
+                    </div>
+                </div>
+                <div class="description">
+                    первое приложение для знакомства с Angular; выполнено по заданию с <br>
+                    <a class='description_a'
+                    target="_blank" 
+                    href="https://github.com/avito-tech/safedeal-frontend-trainee">https://github.com/avito-tech/safedeal-frontend-trainee</a>
+                    <br><br>
+                    <a href="https://github.com/MatykinaAnna/photoList" target="_blank">https://github.com/MatykinaAnna/photoList</a>
+                </div>
+            </div>
+
+            <div class="app app2">
+                <div class="img">
+                    <div class="border_img">
+                        <button (click)="go('ticket')"></button>
+                    </div>
+                </div>
+                <div class="description">
+                    тренировка взаимодействий между компонентами и отслеживание действий пользователя; <br> выполнено по заданию с
+                    <a class='description_a'
+                    target="_blank" 
+                    href="https://github.com/KosyanMedia/test-tasks/tree/master/aviasales_frontend">https://github.com/MatykinaAnna/-ticketing</a>
+                    <br><br>
+                    <a href="https://github.com/MatykinaAnna/-ticketing" target="_blank">https://github.com/MatykinaAnna/-ticketing</a>
+                </div>
+            </div>
+
+            <div class="app app3">
+                <div class="img">
+                    <div class="border_img">
+                        <button (click)="goToHref('https://matykinaanna.github.io/TODO--/')"></button>
+                    </div>
+                </div>
+                <div class="description">
+                    todo лист с разбиеним на проекты, задачи и подзадачи;<br>
+                    подзадачи можно добавлять на неограниченное число уровней;<br>
+                    для эмитации api используется модуль angular-in-memory-web-api;<br>
+                    для каскадного удаления таблиц используется алгоритм прохода дерева в ширину <br><br> 
+                    <a href="https://github.com/MatykinaAnna/TODO--.git" target="_blank">https://github.com/MatykinaAnna/TODO--.git</a>
+                </div>
+            </div>
+
+            <div class="app app4">
+                <div class="img">
+                    <div class="border_img">
+                        <button (click)="goToHref('https://matykinaanna.github.io/organizer/')"></button>
+                    </div>
+                </div>
+                <div class="description">
+                    календарь с возможность добавлять задачи на день;<br>
+                    задачи разделяются по часам;<br>
+                    для хранения данных используется firebase;<br><br>
+                    <a href="https://github.com/MatykinaAnna/organizer.git" target="_blank">https://github.com/MatykinaAnna/organizer.git</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
