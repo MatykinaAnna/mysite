@@ -92,6 +92,12 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.app5>.img>.border_img>button{
+    background: url('../../assets/photo/timetable.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 @media (max-width: 800px) {
     .reason_show{
